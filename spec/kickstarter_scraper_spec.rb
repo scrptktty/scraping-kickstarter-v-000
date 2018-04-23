@@ -7,7 +7,6 @@ describe "#create_project_hash" do
   end
 
   it "returns a hash" do
-    binding.pry
     expect(create_project_hash.class).to eq(Hash)
   end
 
