@@ -5,3 +5,5 @@ html = File.read('fixtures/kickstarter.html')
 kickstarter = Nokogiri::HTML(html)
 
 binding.pry
+
+create_project_hash
